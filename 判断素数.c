@@ -1,14 +1,16 @@
 #include<stdio.h>
 int main()
 {
-for (i=2;i<=m;i++
+  int i,m;
+  scanf("%d",&m);
+for (i=2;i<=m;i++)
 {
-if  m%i==0
+if(m%i==0)
 {
-printf   no
+printf("不是素数\n");
 break;
 }
 }
-if(i==m
-printf   yes
+if(i==m)
+printf("是素数\n");
 }
